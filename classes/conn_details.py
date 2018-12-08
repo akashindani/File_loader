@@ -2,15 +2,15 @@ class conn_details(object):
     def __init__(self):
         
         self.file_system='/users/gen/'
-        self.hostname='illnqw1404'
-        self.username='abpwrk1'
-        self.password='Unix11!'
+        self.hostname='**'
+        self.username='**'
+        self.password='**!'
         self.log_path=self.file_system+self.username+'/akash/python/loader/logs'
         self.input_dir=self.file_system+self.username+'/akash/python/loader/input'
         self.output_dir=self.file_system+self.username+'/akash/python/loader/output'
         self.temp_dir=self.file_system+self.username+'/akash/python/loader/temp'
-        self.app_db_conn_str='ABPAPP1/ABPAPP1@illnqw1404/CMDDB1404'
-        self.sqlloader_db_con_str='ABPAPP1/ABPAPP1@CMDDB1404'
+        self.app_db_conn_str='A/B@C/D'
+        self.sqlloader_db_con_str='A/B@C/D'
         
     def get_host_name(self):
         return self.hostname
